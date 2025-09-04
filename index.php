@@ -1,3 +1,6 @@
 <?php
-print "Hello, World!";
-print "Hello, World! 2";
+require 'classes.php';
+$page = new structure();
+
+$page->heading();
+$page->footer();
